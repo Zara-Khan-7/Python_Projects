@@ -1,0 +1,23 @@
+[
+    {
+        "Title": "Jungle Book",
+        "Author": "Rustyn",
+        "Year": 1830,
+        "Genre": "fiction",
+        "Read": true
+    },
+    {
+        "Title": "Romeo and Juliet",
+        "Author": "Shakespear",
+        "Year": 1910,
+        "Genre": "romance",
+        "Read": false
+    },
+    {
+        "Title": "Black Beiger",
+        "Author": "Kevin",
+        "Year": 1990,
+        "Genre": "Comedy",
+        "Read": true
+    },
+]
