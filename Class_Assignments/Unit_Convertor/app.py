@@ -70,10 +70,10 @@ def convert_area(value, from_unit, to_unit):
     }
     return value * conversions[to_unit] / conversions[from_unit]
 
-st.set_page_config(page_title="Ultimate Unit Converter", page_icon="🔄", layout="wide")
+st.set_page_config(page_title="Unit Converter", layout="wide")
 
 st.sidebar.title("🔧 Unit Converter")
-st.sidebar.markdown("**Fast & Accurate Unit Conversion in Seconds!**")
+st.sidebar.markdown("**Unit Conversion in Seconds!**")
 
 unit_type = st.sidebar.radio("Select Conversion Type", [
     "📏 Length Converter",
@@ -105,7 +105,7 @@ elif unit_type == "📐 Area Converter":
 
 st.markdown("""
     <h1 style='text-align: center; color: #4A90E2; font-size: 42px; font-weight: bold;'>
-        🔄 Ultimate Unit Converter
+         Unit Converter
     </h1>
     <h3 style='text-align: center; color: #555; font-size: 20px;'>
         Convert Length, Weight, Temperature, Volume, Time & Area Instantly 🚀
@@ -140,7 +140,3 @@ st.markdown("""
         }
     </style>
 """, unsafe_allow_html=True)
-
-
-st.markdown("---")
-st.markdown("<p style='text-align: center;'>🌍 Made By Moiz Ahmed Shaikh</p>", unsafe_allow_html=True)
